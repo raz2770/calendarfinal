@@ -110,19 +110,17 @@ body {
 .today
 {
   
-  content:url(download.png);
+  
   background-image:linear-gradient(#42455a,#42455a),
   radial-gradient(circle at top left,#fd00da,#19d7f8);
   background-origin:border-box;
   background-clip:padding-box,border-box;
-  transition: transform .2s;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  
 
 
 }
-.today:hover {
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
+
 .x 
 { 
   background-image:linear-gradient(#42455a,#42455a),
