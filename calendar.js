@@ -68,7 +68,7 @@ var dt = new Date();
                 cells += "<div class='mnt'>" + i + "</div>";
                 else if(i==18 && dt.getMonth() == 11)
                 cells += "<div class='imd'>" + i + "</div>";
-                else if (i == today.getDate() && dt.getMonth() == today.getMonth()) cells += "<div class='today'>" + i + "</div>";
+                else if (i == today.getDate() && dt.getMonth() == today.getMonth()) cells += "<div class='x'>" + i + "</div>";
                 else
                     cells += "<div class='x'>" + i + "</div>";
             }
